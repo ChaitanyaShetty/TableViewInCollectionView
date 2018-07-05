@@ -77,6 +77,9 @@ extension TableViewCell: UICollectionViewDelegate, UICollectionViewDataSource {
         cell.imgView.image = UIImage(named: arrOfcollectionViewImages[indexPath.row])
 
         return cell
+        
+        
+        
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
